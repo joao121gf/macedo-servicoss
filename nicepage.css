@@ -43389,6 +43389,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -43403,33 +43404,39 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -61px;
   }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 78px;
+  }
 
+  .u-header .u-image-1 {
+    width: 40px;
+    height: 47px;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -39px;
+    margin-bottom: 23px;
+  }
+}
 .u-footer .u-sheet-1 {
-  min-height: 202px;
+  min-height: 308px;
 }
 
 .u-footer .u-image-1 {
-  width: 73px;
-  height: 85px;
-  margin: 63px auto 0 0;
+  width: 89px;
+  height: 104px;
+  margin: 60px auto 0;
 }
 
 .u-footer .u-logo-image-1 {
   width: 100%;
   height: 100%;
-}
-
-.u-footer .u-text-1 {
-  width: 631px;
-  font-size: 0.875rem;
-  margin: -83px auto 0;
 }
 
 .u-footer .u-social-icons-1 {
@@ -43438,7 +43445,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 178px;
   min-width: 94px;
   white-space: nowrap;
-  margin: -71px 0 60px 962px;
+  margin: 29px auto 0 480px;
 }
 
 .u-footer .u-icon-1 {
@@ -43446,63 +43453,40 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-icon-2 {
-  height: 37px;
+  color: rgb(0, 122, 185) !important;
 }
 
 .u-footer .u-icon-3 {
-  height: 100%;
   color: rgb(0, 230, 118) !important;
 }
 
 .u-footer .u-icon-4 {
-  height: 100%;
   color: rgb(59, 89, 152) !important;
 }
+
+.u-footer .u-line-1 {
+  transform-origin: left center 0px;
+  width: 1140px;
+  margin: 17px 0 60px;
+}
 @media (max-width: 1199px) {
-  .u-footer .u-text-1 {
-    margin-top: -94px;
+  .u-footer .u-social-icons-1 {
+    margin-left: 420px;
   }
 
-  .u-footer .u-social-icons-1 {
-    width: 178px;
-    margin-top: -48px;
+  .u-footer .u-line-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
-
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 200px;
-  }
-
-  .u-footer .u-image-1 {
-    margin-top: 18px;
-    margin-left: 230px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 540px;
-    margin-top: -94px;
-  }
-
+@media (max-width: 991px) {
   .u-footer .u-social-icons-1 {
-    margin-top: -73px;
-    margin-right: auto;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-image-1 {
-    margin-right: 267px;
     margin-left: auto;
   }
-
-  .u-footer .u-text-1 {
-    width: 340px;
-  }
-
-  .u-footer .u-social-icons-1 {
-    margin-top: -150px;
-  }
 }
+
+
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
