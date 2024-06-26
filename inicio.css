@@ -1,12 +1,21 @@
- .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/group-business-people-having-meeting23.jpg');
+.u-section-1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("images/group-business-people-having-meeting23.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 878px;
 }
-
+.u-reader {
+  background-image: none;
+  margin: 0 auto !important;
+  width: 72% !important;
+}
 .u-section-1 .u-image-1 {
   width: 449px;
   height: 449px;
@@ -27,7 +36,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   width: 882px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,1);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
   text-decoration: none solid rgb(255, 255, 255);
   margin: -69px 129px 0;
 }
@@ -119,7 +128,8 @@
     margin-top: 50px;
     padding: 10px 15px 11px;
   }
-} .u-section-2 {
+}
+.u-section-2 {
   background-image: none;
 }
 
@@ -382,7 +392,8 @@
     padding-left: 25px;
     padding-right: 25px;
   }
-} .u-section-3 {
+}
+.u-section-3 {
   background-image: none;
 }
 
@@ -612,7 +623,8 @@
     letter-spacing: 1px;
     padding: 11px 14px 12px 13px;
   }
-} .u-section-4 {
+}
+.u-section-4 {
   background-image: none;
 }
 
@@ -842,7 +854,8 @@
   .u-section-4 .u-btn-1 {
     margin-right: 182px;
   }
-} .u-section-5 {
+}
+.u-section-5 {
   background-image: none;
 }
 
@@ -1130,7 +1143,8 @@
     margin-top: -66px;
     margin-right: 14px;
   }
-} .u-section-6 {
+}
+.u-section-6 {
   background-image: none;
 }
 
@@ -1394,7 +1408,8 @@
     height: 103px;
     margin-top: -65px;
   }
-}.u-section-7 .u-sheet-1 {
+}
+.u-section-7 .u-sheet-1 {
   min-height: 767px;
 }
 
@@ -1526,7 +1541,8 @@
   .u-section-7 .u-image-3 {
     background-position: 50% 0%;
   }
-} .u-section-8 {
+}
+.u-section-8 {
   background-image: none;
 }
 
@@ -1823,7 +1839,8 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-} .u-section-9 {
+}
+.u-section-9 {
   background-image: none;
 }
 
@@ -1936,7 +1953,8 @@
     width: 320px;
     height: 397px;
   }
-} .u-section-10 {
+}
+.u-section-10 {
   background-image: none;
 }
 
