@@ -43,7 +43,7 @@
   font-weight: 400;
 }
 .mini-box {
-  background-color: #93f2ff;
+  background-color: #b4f5f5;
   padding: 15px;
   border-radius: 20px;
   padding: 10px 25px 25px 30px;
@@ -184,6 +184,23 @@
     max-width: 298px;
     height: 90%;
   }
+
+  .quadrados-como {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.box-como {
+  max-width: 316px;
+  margin: 30px auto;
+  display: grid;
+  align-items: start;
+  justify-content: space-evenly;
+  align-content: center;
+  justify-items: center;
+}
+.box-how {
+  text-align: center;
 }
 @media (min-width: 1212px) {
   .flix {
@@ -199,4 +216,68 @@
   .gridd {
     margin-top: 100px;
   }
+  .quadrados-como {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.content-ready {
+  text-align: center;
+  margin-bottom: 200px;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.u-social-icons {
+  margin: 50px auto !important;
+}
+
+.griddd {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.griddd {
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+.hosp {
+  width: 500px !important;
+}
+
+.box-cursos {
+  width: 70%;
+}
+@media (min-width: 400px) {
+  .box-cursos {
+    width: 70%;
+    margin: 0 3vw !important;
+  }
+}
+.u-container-layoutt {
+  padding: 20px !important;
+}
+
+.u-expanded-width-smm {
+  width: 87% !important;
+  margin: 0 auto;
+}
+
+.section {
+  font-family: "Open Sans" !important;
+}
+.tttt{
+  margin-top: 0px !important;
+  margin-bottom: 50px !important;
+}
+.www{
+  display: block !important;
+}
+.ccc{
+  margin: 0 auto;
+}
+.tttt{
+  margin: 50px auto !important;
 }
