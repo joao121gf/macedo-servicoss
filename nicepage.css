@@ -41686,7 +41686,7 @@ li.active > a.u-button-style.u-text-grey-60,
 li.active > a.u-button-style.u-text-grey-60[class*="u-border-"],
 a.u-button-style.u-text-grey-60,
 a.u-button-style.u-text-grey-60[class*="u-border-"] {
-  color: #666666 !important;
+  color: black !important;
 }
 a.u-button-style.u-text-grey-60:hover,
 a.u-button-style.u-text-grey-60[class*="u-border-"]:hover,
