@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url("images/group-business-people-having-meeting23.jpg");
+    url("images/remaster/capa.webp");
   background-position: 50% 50%;
 }
 
@@ -27,7 +27,7 @@
   margin: 0 346px;
 }
 
-.termos{
+.termos {
   color: black !important;
 }
 .u-section-1 .u-text-1 {
@@ -424,7 +424,7 @@
 .u-section-3 .u-image-1 {
   min-height: 786px;
   pointer-events: auto;
-  background-image: url("images/group-people-working-4.jpg");
+  background-image: url("images/remaster/group-people-working-4.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
@@ -649,7 +649,7 @@
 .u-section-4 .u-image-1 {
   width: 459px;
   height: 459px;
-  background-image: url("images/two-happy-men-working-together-new4.jpg");
+  background-image: url("images/remaster/two-happy-men-working-together-new4.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
